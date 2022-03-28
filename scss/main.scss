@@ -1,0 +1,30 @@
+@mixin box100blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+@mixin box100bred {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+@mixin box100green {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+* {
+    margin: 0;
+}
+
+div {
+    @include box100blue;
+}
+
+h1 {
+    font-size: 10px;
+    color: white;
+}
